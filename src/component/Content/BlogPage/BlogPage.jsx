@@ -55,7 +55,7 @@ const BlogPage = () => {
         </div>
       </div>
 
-      <div className="px-4 sm:px-6 md:px-60 lg:px-20 py-8 md:py-12">
+      <div className="px-4 sm:px-6 md:px-60 mx-4 lg:px-20 py-8 md:py-12">
         <div className="flex flex-col lg:flex-row gap-6 bg-white">
           {/* Left Column - Blog Posts */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:flex-1">
