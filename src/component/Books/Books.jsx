@@ -35,7 +35,7 @@ export default function Books() {
         style={{ backgroundImage: "url('/assets/background.png')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />
-        <h1 className="relative text-white text-4xl font-bold z-10"> Contact Us </h1>
+        <h1 className="relative text-white text-4xl font-bold z-10">Books </h1>
       </div>
       </div> 
     <div className="py-10 px-4 sm:px-6 lg:px-16 bg-white">

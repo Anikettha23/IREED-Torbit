@@ -49,12 +49,12 @@ const Faqs = () => {
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
           End-User Demand is an Investment Opportunity
         </h2>
-        <p className="text-center font-semibold text-gray-700 mb-6 uppercase">
-          By: Mr. Bhaswar Paul
+        <p className="text-center font-semibold text-gray-700 mb-6 ">
+          By : Mr. Bhaswar Paul
         </p>
         <div className="flex justify-center mb-10">
           <img
-            src="assets/IMG11.jpg" // Make sure this path is correct
+            src="/assets/3.jpg" // Make sure this path is correct
             alt="Mr. Bhaswar Paul"
             className="w-32 h-32 rounded-full border-4 border-white shadow-md"
           />

@@ -17,7 +17,7 @@ function Experts() {
       </div>
 
       <div className="text-center px-4 py-8">
-        <p className="text-center max-w-4xl mx-auto text-lg text-gray-700">
+        <p className=" max-w-4xl mx-auto text-lg text-gray-700 text-justify">
           Torbit is a platform that brings together accomplished real estate
           professionals with decades of experience on the ground. Their
           knowledge of market cycles, investment strategies, industry trends,

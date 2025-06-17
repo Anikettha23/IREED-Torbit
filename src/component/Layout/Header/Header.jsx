@@ -100,7 +100,7 @@ function Header() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <ul className="absolute top-20 left-0 w-full bg-white text-black flex flex-col space-y-4 py-4 px-6 md:hidden shadow-lg z-40">
+        <ul className="absolute top-20 left-0 w-full  bg-white text-black flex flex-col space-y-4 py-4 px-6 md:hidden shadow-lg z-40">
           <li><Link to="/">Home</Link></li>
 
           <li>
@@ -110,16 +110,16 @@ function Header() {
             {aboutDropdownOpen && (
               <ul className="pl-4 pt-2 space-y-2">
                 <li>
-                  <Link to="/about-us/about-ireed" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">About IREED</Link>
+                  <Link to="/About-Us/About" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">About IREED</Link>
                 </li>
                 <li>
-                  <Link to="/about-us/founder" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Founder</Link>
+                  <Link to="/About-Us/Founder" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Founder</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/about-us/testimonial" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Testimonials</Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to="/about-us/faq" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">FAQs</Link>
+                  <Link to="/About-Us/Faqs" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">FAQs</Link>
                 </li>
               </ul>
             )}
@@ -132,7 +132,7 @@ function Header() {
             {contentDropdownOpen && (
               <ul className="pl-4 pt-2 space-y-2">
                 <li>
-                  <Link to="/content/BlogPage" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Blogs</Link>
+                  <Link to="/content/Blogs" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Blogs</Link>
                 </li>
                 <li>
                   <Link to="/content/videos" className="block px-4 py-2 hover:bg-[#2a3290] hover:text-white">Videos</Link>
@@ -146,9 +146,9 @@ function Header() {
 
           <li><Link to="/Experts">Experts</Link></li>
           <li><Link to="/Ireedreality">IREED Realty</Link></li>
-          <li><Link to="/Books">Books</Link></li>
+          <li><Link to="/Books/Books">Books</Link></li>
           <li><Link to="/forum">Forum</Link></li>
-          <li><Link to="/Contact-us">contact</Link></li>
+          <li><Link to="/Contact/Contact">contact</Link></li>
         </ul>
       )}
     </div>
